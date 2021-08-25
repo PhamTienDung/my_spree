@@ -31,7 +31,7 @@ gem 'spree_gateway', '~> 3.9' # payment gateways eg. Stripe, Braintree (optional
 gem 'spree_i18n', '~> 5.0' # translation files (optional) 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-
+gem 'rails_12factor', group: :production
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
